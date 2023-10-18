@@ -51,7 +51,7 @@ class Card {
 
     const material = new THREE.MeshStandardMaterial({
       color,
-      side: THREE.DoubleSide,
+      side: THREE.DoubleSide, // 이렇게 안하면 뒷면 안나옴
       roughness: 0.5,
       metalness: 0.5,
     });
